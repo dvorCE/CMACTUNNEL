@@ -16,16 +16,16 @@ document.querySelector("#submit").addEventListener("click", e => {
 
   let url = `https://api.whatsapp.com/send?phone=${5493832408425}&text=
 		*_MAC FOOD_*%0A
-		*Reservas*%0A%0A
+		*Pedidos*%0A%0A
 		*¿Cuál es tu nombre?*%0A
 		${cliente}%0A
-		*Indica la fecha de tu reserva*%0A
+		*Indica la fecha de tu pedido*%0A
 		${fecha}%0A
-		*Indica la hora de tu reserva*%0A
+		*Indica la hora de tu pedido*%0A
 		${hora}%0A
-		*Empleado de preferencia*%0A
+		*Cobra y entrega*%0A
 		${empleado}%0A
-		*¿Cuál es el servicio que se desea realizar?*%0A
+		*¿Que comidas te enviamos?*%0A
 		${servicio}`;
 
   if (cliente === "" || fecha === "" || hora === "") {
