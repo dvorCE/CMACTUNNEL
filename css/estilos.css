@@ -3,7 +3,7 @@
 }
 body {
   margin: 0;
-  font-family: monospace;
+  font-family: -webkit-pictograph;
   background-image: url(fondo.jpg);
   background-size: 100vw 100vh;
   background-attachment: fixed;
