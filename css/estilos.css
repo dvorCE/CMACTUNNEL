@@ -106,7 +106,7 @@ body {
   padding: 5px;
 }
 #respuesta.fail {
-  color: red;
+  color: black;
 }
 #respuesta.send {
   color: green;
