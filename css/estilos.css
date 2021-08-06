@@ -16,7 +16,7 @@ body {
   padding: 20px;
   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.3);
   position: relative;
-  background: rgba(77 104 132, 97%);
+  background: rgba(77 104 132 / 97%);
 }
 
 .imgLogo {
